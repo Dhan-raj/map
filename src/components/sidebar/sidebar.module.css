@@ -1,0 +1,33 @@
+.sidebar {
+  background: rgb(0, 0, 0);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  height: 100vh;
+  width: 4rem;
+}
+
+.sidebar button {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  margin: 1rem 0;
+  color: inherit;
+  cursor: pointer;
+}
+
+.closeContainer {
+  background: rgb(150, 150, 150);
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+}
+
+.searchContainer {
+    height: 5rem;
+}
+.closeBtn {
+  cursor: pointer;
+}
